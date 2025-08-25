@@ -8,22 +8,57 @@ STAGES = [
      ( : ) 
      ( : ) 
      """,
-     # Stage 1: Bottom part starts melting
-     """
+     # Stage 1: First coal button disappears
+    """
+       ___  
+      /___\\
+      (o o) 
+      ( : ) 
+      (   ) 
+      """,
+
+    # Stage 2 : Bottom part starts melting
+
+    """
       ___  
      /___\\
      (o o) 
      ( : ) 
      """,
-     # Stage 2: Only the head remains
+
+    # Stage 3: Second coal button disappears
+    """
+       ___  
+      /___\\
+      (o o) 
+      (   ) 
+      """,
+    # Stage 4: Middle part starts melting
+    """
+         ___  
+        /___\\
+        (o o) 
+       """,
+    # Stage 5: First eye(coal) sliding in the ground
+
      """
       ___  
      /___\\
-     (o o) 
+     (o  ) 
      """,
-     # Stage 3: Snowman completely melted
-     """
+    # Stage 6: second eye(coal) sliding on the ground
+    """
       ___  
-     /___\\ 
-     """
+     /___\\
+     (   ) 
+       """,
+
+
+     # Stage 7: Snowman completely melted
+    """
+      ___  
+     /___\\
+     
+    """,
+
  ]
